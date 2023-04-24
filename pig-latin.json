@@ -1,0 +1,1 @@
+{"index.js":"function translatePigLatin(str) {\n  \n  return str.replace(/^[aeiou]\\w*/, \"$&way\")\n    .replace(/(^[^aeiou]+)(\\w*)/, \"$2$1ay\");\n}\n\ntranslatePigLatin(\"consonant\");"}

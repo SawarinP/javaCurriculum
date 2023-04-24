@@ -1,0 +1,1 @@
+{"index.js":"function sumAll(arr) {\n  let sumBetween = 0;\n  for (let i = Math.min(...arr); i <= Math.max(...arr); i++) {\n    sumBetween += i;\n  }\n  return sumBetween;\n}\n\nsumAll([1, 4]);"}

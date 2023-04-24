@@ -1,0 +1,1 @@
+{"index.js":"function destroyer(arr) {\n  const valsToRemove = Array.from(arguments).slice(1);\n  return arr.filter(function(val) {\n    return !valsToRemove.includes(val);\n  });\n}\n\ndestroyer([1, 2, 3, 1, 2, 3], 2, 3);"}
